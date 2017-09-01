@@ -14,7 +14,7 @@ cp libflashplayer.so  ~/.mozilla/plugins/
 expect 2.sh
 
 vncserver -kill :1
-sudo mv myvncserver.sh /usr/local/bin/myvncserver
+sudo mv myvncserver /usr/local/bin/myvncserver
 sudo chmod +x /usr/local/bin/myvncserver
 sudo mv myvncserver.service /lib/systemd/system/myvncserver.service
 sudo systemctl daemon-reload
