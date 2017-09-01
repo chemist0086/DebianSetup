@@ -14,12 +14,10 @@ cp libflashplayer.so  ~/.mozilla/plugins/
 expect 2.sh
 
 vncserver -kill :1
-sudo mv myvncserver /usr/local/bin/myvncserver
+sudo mv myvncserver.sh /usr/local/bin/myvncserver
 sudo chmod +x /usr/local/bin/myvncserver
 sudo mv myvncserver.service /lib/systemd/system/myvncserver.service
 sudo systemctl daemon-reload
 sudo systemctl enable myvncserver.service
 sudo systemctl start myvncserver.service
-
-sudo echo "0 * * * * sudo shutdown -r now" >> /var/spool/cron/crontabs/root
-sudo /etc/init.d/cron restart
+sudo crontab -e
