@@ -2,7 +2,7 @@
 PATH="$PATH:/usr/bin/"
 DISPLAY="1"
 DEPTH="16"
-GEOMETRY="1280x720"
+GEOMETRY="1280x800"
 OPTIONS="-depth ${DEPTH} -geometry ${GEOMETRY} :${DISPLAY}"
 
 case "$1" in
