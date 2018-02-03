@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get install -y expect
 sudo apt-get install -y xfce4 tightvncserver
 sudo apt-get install -y iceweasel
-wget https://fpdownload.adobe.com/get/flashplayer/pdc/28.0.0.126/flash_player_npapi_linux.x86_64.tar.gz
+wget https://fpdownload.adobe.com/get/flashplayer/pdc/28.0.0.137/flash_player_npapi_linux.x86_64.tar.gz
 tar -xzf flash_player_npapi_linux.x86_64.tar.gz
 mkdir -p ~/.mozilla/plugins/
 cp libflashplayer.so  ~/.mozilla/plugins/
