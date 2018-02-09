@@ -1,5 +1,6 @@
 #!/etc/bash
 wget https://raw.githubusercontent.com/chemist0086/DebianSetup/master/2.sh
+wget https://raw.githubusercontent.com/chemist0086/DebianSetup/master/3.sh
 wget https://raw.githubusercontent.com/chemist0086/DebianSetup/master/myvncserver.service
 wget https://raw.githubusercontent.com/chemist0086/DebianSetup/master/myvncserver
 sudo apt-get update
